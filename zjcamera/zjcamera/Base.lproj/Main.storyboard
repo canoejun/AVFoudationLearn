@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="THViewController" customModule="zjcamera" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="THCameraView" customModule="zjcamera" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JwQ-kc-kGB" customClass="THPreviewView" customModule="zjcamera" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FRw-br-qXy" userLabel="controlViews" customClass="THOverlayView" customModule="zjcamera" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MSL-XM-EAF" userLabel="Mode View" customClass="THCameraModeView">
+                                        <rect key="frame" x="0.0" y="728" width="414" height="90"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5P5-pS-OfF" userLabel="CaptureButton" customClass="THCaptureButton">
+                                                <rect key="frame" x="169.66666666666666" y="7.6666666666666288" width="75" height="75"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="75" id="KH6-7h-GnA"/>
+                                                    <constraint firstAttribute="height" constant="75" id="ry5-gh-vP7"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <action selector="captureOrRecord:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SKy-Jn-yVL"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rnq-t0-cJg" userLabel="Thumbnail Button">
+                                                <rect key="frame" x="25" y="7.6666666666666288" width="75" height="75"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain"/>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="Rnq-t0-cJg" firstAttribute="height" secondItem="5P5-pS-OfF" secondAttribute="height" id="4Sc-2k-zMV"/>
+                                            <constraint firstItem="Rnq-t0-cJg" firstAttribute="leading" secondItem="MSL-XM-EAF" secondAttribute="leading" constant="25" id="DhV-ce-IbB"/>
+                                            <constraint firstItem="5P5-pS-OfF" firstAttribute="centerY" secondItem="MSL-XM-EAF" secondAttribute="centerY" id="MSi-iP-48r"/>
+                                            <constraint firstItem="5P5-pS-OfF" firstAttribute="centerX" secondItem="MSL-XM-EAF" secondAttribute="centerX" id="Rnr-dW-vSv"/>
+                                            <constraint firstAttribute="height" constant="90" id="WV6-ir-JZN"/>
+                                            <constraint firstItem="Rnq-t0-cJg" firstAttribute="width" secondItem="5P5-pS-OfF" secondAttribute="width" id="WgJ-0B-oxW"/>
+                                            <constraint firstItem="Rnq-t0-cJg" firstAttribute="centerY" secondItem="MSL-XM-EAF" secondAttribute="centerY" id="fFQ-kG-wSh"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="cameraModeChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="dQE-i7-TgC"/>
+                                            <outlet property="captureButton" destination="5P5-pS-OfF" id="mZ4-J2-Uxj"/>
+                                        </connections>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="yFS-4Z-yuf" userLabel="Status View" customClass="THStatusView" customModule="zjcamera" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="90"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CbQ-cs-KJl" userLabel="Switch Camera Button" customClass="THCaptureButton" customModule="zjcamera" customModuleProvider="target">
+                                                <rect key="frame" x="310" y="5" width="75" height="57"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <action selector="switchCamera:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aQf-kH-GaF"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RlO-p0-cGb" userLabel="Elapsed Time Label">
+                                                <rect key="frame" x="161" y="23" width="71" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IpF-YA-MS7" customClass="THFlashControl" customModule="zjcamera" customModuleProvider="target">
+                                                <rect key="frame" x="8" y="4" width="67" height="58"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            </view>
+                                        </subviews>
+                                        <viewLayoutGuide key="safeArea" id="PK2-Vi-Kd0"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <outlet property="elapsedTimeLabel" destination="RlO-p0-cGb" id="T5D-4W-Xw7"/>
+                                            <outlet property="flashControl" destination="IpF-YA-MS7" id="U80-GN-dGm"/>
+                                        </connections>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="MSL-XM-EAF" firstAttribute="leading" secondItem="FRw-br-qXy" secondAttribute="leading" id="LDV-QD-r6h"/>
+                                    <constraint firstAttribute="bottom" secondItem="MSL-XM-EAF" secondAttribute="bottom" id="Qq6-5u-ffh"/>
+                                    <constraint firstAttribute="trailing" secondItem="MSL-XM-EAF" secondAttribute="trailing" id="lsm-7E-m0I"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="modeView" destination="MSL-XM-EAF" id="LnP-JD-MQT"/>
+                                    <outlet property="statusView" destination="yFS-4Z-yuf" id="qT5-ch-lZb"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="JwQ-kc-kGB" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Mir-Uu-DvB"/>
+                            <constraint firstItem="JwQ-kc-kGB" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="OqG-1H-F1i"/>
+                            <constraint firstItem="JwQ-kc-kGB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="QEX-hs-tva"/>
+                            <constraint firstItem="FRw-br-qXy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="cSU-KS-O1h"/>
+                            <constraint firstItem="FRw-br-qXy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="iUo-H6-Pvc"/>
+                            <constraint firstItem="FRw-br-qXy" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="iyN-qJ-Ba4"/>
+                            <constraint firstItem="FRw-br-qXy" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="mXp-Js-Ve9"/>
+                            <constraint firstItem="JwQ-kc-kGB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="sSd-Ae-pra"/>
+                        </constraints>
+                        <connections>
+                            <outlet property="controlsView" destination="FRw-br-qXy" id="uzS-m0-RKj"/>
+                            <outlet property="previewView" destination="JwQ-kc-kGB" id="IgE-VV-k3d"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="overlayView" destination="FRw-br-qXy" id="qcX-pk-yYt"/>
+                        <outlet property="previewView" destination="JwQ-kc-kGB" id="CFT-ks-zRe"/>
+                        <outlet property="thumbnailButton" destination="Rnq-t0-cJg" id="20t-dq-76t"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="125.95419847328243" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F918186829B2349300F977B4 /* THCameraModeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F918186729B2349300F977B4 /* THCameraModeView.m */; };
+		F918186B29B2358300F977B4 /* UIView+THAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F918186A29B2358300F977B4 /* UIView+THAdditions.m */; };
+		F9650C0429B1D4DD00886B91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9650C0329B1D4DD00886B91 /* AppDelegate.swift */; };
+		F9650C0629B1D4DD00886B91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9650C0529B1D4DD00886B91 /* SceneDelegate.swift */; };
+		F9650C0829B1D4DD00886B91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9650C0729B1D4DD00886B91 /* ViewController.swift */; };
+		F9650C0B29B1D4DD00886B91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9650C0929B1D4DD00886B91 /* Main.storyboard */; };
+		F9650C0D29B1D4DF00886B91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9650C0C29B1D4DF00886B91 /* Assets.xcassets */; };
+		F9650C1029B1D4DF00886B91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9650C0E29B1D4DF00886B91 /* LaunchScreen.storyboard */; };
+		F972E5D729B1E0DE009E7EAF /* THFlashControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F972E5D629B1E0DE009E7EAF /* THFlashControl.swift */; };
+		F972E5D929B1E2E3009E7EAF /* THStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F972E5D829B1E2E3009E7EAF /* THStatusView.swift */; };
+		F9BF453129B1DC9D008DEDA8 /* THViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BF453029B1DC9D008DEDA8 /* THViewController.swift */; };
+		F9BF453329B1DCAD008DEDA8 /* THCameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BF453229B1DCAD008DEDA8 /* THCameraController.swift */; };
+		F9BF453529B1DCFD008DEDA8 /* THPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BF453429B1DCFD008DEDA8 /* THPreviewView.swift */; };
+		F9BF453729B1DD39008DEDA8 /* THCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BF453629B1DD39008DEDA8 /* THCameraView.swift */; };
+		F9BF453929B1DDB4008DEDA8 /* THOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BF453829B1DDB4008DEDA8 /* THOverlayView.swift */; };
+		F9F5494929B20E4E0043D54E /* THCaptureButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F5494729B20E4E0043D54E /* THCaptureButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F918186629B2349300F977B4 /* THCameraModeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THCameraModeView.h; sourceTree = "<group>"; };
+		F918186729B2349300F977B4 /* THCameraModeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THCameraModeView.m; sourceTree = "<group>"; };
+		F918186929B2358300F977B4 /* UIView+THAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+THAdditions.h"; sourceTree = "<group>"; };
+		F918186A29B2358300F977B4 /* UIView+THAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+THAdditions.m"; sourceTree = "<group>"; };
+		F9650C0029B1D4DD00886B91 /* zjcamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zjcamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9650C0329B1D4DD00886B91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9650C0529B1D4DD00886B91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F9650C0729B1D4DD00886B91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9650C0A29B1D4DD00886B91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9650C0C29B1D4DF00886B91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9650C0F29B1D4DF00886B91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9650C1129B1D4DF00886B91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F972E5D629B1E0DE009E7EAF /* THFlashControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THFlashControl.swift; sourceTree = "<group>"; };
+		F972E5D829B1E2E3009E7EAF /* THStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THStatusView.swift; sourceTree = "<group>"; };
+		F9BF453029B1DC9D008DEDA8 /* THViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THViewController.swift; sourceTree = "<group>"; };
+		F9BF453229B1DCAD008DEDA8 /* THCameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THCameraController.swift; sourceTree = "<group>"; };
+		F9BF453429B1DCFD008DEDA8 /* THPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THPreviewView.swift; sourceTree = "<group>"; };
+		F9BF453629B1DD39008DEDA8 /* THCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THCameraView.swift; sourceTree = "<group>"; };
+		F9BF453829B1DDB4008DEDA8 /* THOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THOverlayView.swift; sourceTree = "<group>"; };
+		F9F5494629B20E4D0043D54E /* zjcamera-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "zjcamera-Bridging-Header.h"; sourceTree = "<group>"; };
+		F9F5494729B20E4E0043D54E /* THCaptureButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THCaptureButton.m; sourceTree = "<group>"; };
+		F9F5494829B20E4E0043D54E /* THCaptureButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THCaptureButton.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9650BFD29B1D4DD00886B91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9650BF729B1D4DD00886B91 = {
+			isa = PBXGroup;
+			children = (
+				F9650C0229B1D4DD00886B91 /* zjcamera */,
+				F9650C0129B1D4DD00886B91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9650C0129B1D4DD00886B91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9650C0029B1D4DD00886B91 /* zjcamera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9650C0229B1D4DD00886B91 /* zjcamera */ = {
+			isa = PBXGroup;
+			children = (
+				F9BF452F29B1DC88008DEDA8 /* Controllers */,
+				F9BF452E29B1DC82008DEDA8 /* Views */,
+				F9650C0329B1D4DD00886B91 /* AppDelegate.swift */,
+				F9650C0529B1D4DD00886B91 /* SceneDelegate.swift */,
+				F9650C0729B1D4DD00886B91 /* ViewController.swift */,
+				F9650C0929B1D4DD00886B91 /* Main.storyboard */,
+				F9650C0C29B1D4DF00886B91 /* Assets.xcassets */,
+				F9650C0E29B1D4DF00886B91 /* LaunchScreen.storyboard */,
+				F9650C1129B1D4DF00886B91 /* Info.plist */,
+			);
+			path = zjcamera;
+			sourceTree = "<group>";
+		};
+		F9BF452E29B1DC82008DEDA8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F918186929B2358300F977B4 /* UIView+THAdditions.h */,
+				F918186A29B2358300F977B4 /* UIView+THAdditions.m */,
+				F918186629B2349300F977B4 /* THCameraModeView.h */,
+				F918186729B2349300F977B4 /* THCameraModeView.m */,
+				F9F5494829B20E4E0043D54E /* THCaptureButton.h */,
+				F9F5494729B20E4E0043D54E /* THCaptureButton.m */,
+				F9BF453429B1DCFD008DEDA8 /* THPreviewView.swift */,
+				F972E5D629B1E0DE009E7EAF /* THFlashControl.swift */,
+				F9BF453829B1DDB4008DEDA8 /* THOverlayView.swift */,
+				F9BF453629B1DD39008DEDA8 /* THCameraView.swift */,
+				F972E5D829B1E2E3009E7EAF /* THStatusView.swift */,
+				F9F5494629B20E4D0043D54E /* zjcamera-Bridging-Header.h */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F9BF452F29B1DC88008DEDA8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F9BF453029B1DC9D008DEDA8 /* THViewController.swift */,
+				F9BF453229B1DCAD008DEDA8 /* THCameraController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9650BFF29B1D4DD00886B91 /* zjcamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9650C1429B1D4DF00886B91 /* Build configuration list for PBXNativeTarget "zjcamera" */;
+			buildPhases = (
+				F9650BFC29B1D4DD00886B91 /* Sources */,
+				F9650BFD29B1D4DD00886B91 /* Frameworks */,
+				F9650BFE29B1D4DD00886B91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zjcamera;
+			productName = zjcamera;
+			productReference = F9650C0029B1D4DD00886B91 /* zjcamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9650BF829B1D4DD00886B91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F9650BFF29B1D4DD00886B91 = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
+					};
+				};
+			};
+			buildConfigurationList = F9650BFB29B1D4DD00886B91 /* Build configuration list for PBXProject "zjcamera" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9650BF729B1D4DD00886B91;
+			productRefGroup = F9650C0129B1D4DD00886B91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9650BFF29B1D4DD00886B91 /* zjcamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9650BFE29B1D4DD00886B91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9650C1029B1D4DF00886B91 /* LaunchScreen.storyboard in Resources */,
+				F9650C0D29B1D4DF00886B91 /* Assets.xcassets in Resources */,
+				F9650C0B29B1D4DD00886B91 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9650BFC29B1D4DD00886B91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F972E5D929B1E2E3009E7EAF /* THStatusView.swift in Sources */,
+				F9BF453129B1DC9D008DEDA8 /* THViewController.swift in Sources */,
+				F918186829B2349300F977B4 /* THCameraModeView.m in Sources */,
+				F9BF453529B1DCFD008DEDA8 /* THPreviewView.swift in Sources */,
+				F918186B29B2358300F977B4 /* UIView+THAdditions.m in Sources */,
+				F9BF453729B1DD39008DEDA8 /* THCameraView.swift in Sources */,
+				F9F5494929B20E4E0043D54E /* THCaptureButton.m in Sources */,
+				F9650C0829B1D4DD00886B91 /* ViewController.swift in Sources */,
+				F9650C0429B1D4DD00886B91 /* AppDelegate.swift in Sources */,
+				F9BF453329B1DCAD008DEDA8 /* THCameraController.swift in Sources */,
+				F972E5D729B1E0DE009E7EAF /* THFlashControl.swift in Sources */,
+				F9650C0629B1D4DD00886B91 /* SceneDelegate.swift in Sources */,
+				F9BF453929B1DDB4008DEDA8 /* THOverlayView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F9650C0929B1D4DD00886B91 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9650C0A29B1D4DD00886B91 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9650C0E29B1D4DF00886B91 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9650C0F29B1D4DF00886B91 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9650C1229B1D4DF00886B91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9650C1329B1D4DF00886B91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9650C1529B1D4DF00886B91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9DW77WUQXJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = zjcamera/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.canoejun.zjcamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "zjcamera/Views/zjcamera-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9650C1629B1D4DF00886B91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9DW77WUQXJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = zjcamera/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.canoejun.zjcamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "zjcamera/Views/zjcamera-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9650BFB29B1D4DD00886B91 /* Build configuration list for PBXProject "zjcamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9650C1229B1D4DF00886B91 /* Debug */,
+				F9650C1329B1D4DF00886B91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9650C1429B1D4DF00886B91 /* Build configuration list for PBXNativeTarget "zjcamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9650C1529B1D4DF00886B91 /* Debug */,
+				F9650C1629B1D4DF00886B91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9650BF829B1D4DD00886B91 /* Project object */;
+}

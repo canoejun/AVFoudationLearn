@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F902BC9E29B326260098B586 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F902BC9D29B326260098B586 /* AppDelegate.m */; };
+		F902BCA129B326260098B586 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F902BCA029B326260098B586 /* SceneDelegate.m */; };
+		F902BCA429B326260098B586 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F902BCA329B326260098B586 /* ViewController.m */; };
+		F902BCA729B326260098B586 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F902BCA529B326260098B586 /* Main.storyboard */; };
+		F902BCA929B326280098B586 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F902BCA829B326280098B586 /* Assets.xcassets */; };
+		F902BCAC29B326280098B586 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F902BCAA29B326280098B586 /* LaunchScreen.storyboard */; };
+		F902BCAF29B326280098B586 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F902BCAE29B326280098B586 /* main.m */; };
+		F902BCBB29B326E20098B586 /* NSFileManager+THAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F902BCB829B326E20098B586 /* NSFileManager+THAdditions.m */; };
+		F902BCBC29B326E20098B586 /* THAssetsLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = F902BCBA29B326E20098B586 /* THAssetsLibrary.m */; };
+		F902BCC429B326F30098B586 /* THViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F902BCBF29B326F30098B586 /* THViewController.m */; };
+		F902BCC629B326F30098B586 /* THBaseCameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = F902BCC329B326F30098B586 /* THBaseCameraController.m */; };
+		F902BCCB29B326FC0098B586 /* THCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = F902BCC929B326FC0098B586 /* THCameraView.m */; };
+		F902BCD029B328310098B586 /* THPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F902BCCF29B328310098B586 /* THPreviewView.swift */; };
+		F902BCD229B328510098B586 /* THCameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F902BCD129B328510098B586 /* THCameraController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F902BC9929B326260098B586 /* FaceCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F902BC9C29B326260098B586 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F902BC9D29B326260098B586 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F902BC9F29B326260098B586 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F902BCA029B326260098B586 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F902BCA229B326260098B586 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F902BCA329B326260098B586 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F902BCA629B326260098B586 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F902BCA829B326280098B586 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F902BCAB29B326280098B586 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F902BCAD29B326280098B586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F902BCAE29B326280098B586 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F902BCB729B326E20098B586 /* THAssetsLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THAssetsLibrary.h; sourceTree = "<group>"; };
+		F902BCB829B326E20098B586 /* NSFileManager+THAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+THAdditions.m"; sourceTree = "<group>"; };
+		F902BCB929B326E20098B586 /* NSFileManager+THAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+THAdditions.h"; sourceTree = "<group>"; };
+		F902BCBA29B326E20098B586 /* THAssetsLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THAssetsLibrary.m; sourceTree = "<group>"; };
+		F902BCBD29B326F30098B586 /* THBaseCameraController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THBaseCameraController.h; sourceTree = "<group>"; };
+		F902BCBE29B326F30098B586 /* THCameraControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THCameraControllerDelegate.h; sourceTree = "<group>"; };
+		F902BCBF29B326F30098B586 /* THViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THViewController.m; sourceTree = "<group>"; };
+		F902BCC129B326F30098B586 /* THViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THViewController.h; sourceTree = "<group>"; };
+		F902BCC329B326F30098B586 /* THBaseCameraController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THBaseCameraController.m; sourceTree = "<group>"; };
+		F902BCC729B326FC0098B586 /* THCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THCameraView.h; sourceTree = "<group>"; };
+		F902BCC929B326FC0098B586 /* THCameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THCameraView.m; sourceTree = "<group>"; };
+		F902BCCD29B327740098B586 /* THFaceDetectionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THFaceDetectionDelegate.h; sourceTree = "<group>"; };
+		F902BCCE29B328310098B586 /* FaceCamera-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FaceCamera-Bridging-Header.h"; sourceTree = "<group>"; };
+		F902BCCF29B328310098B586 /* THPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THPreviewView.swift; sourceTree = "<group>"; };
+		F902BCD129B328510098B586 /* THCameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THCameraController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F902BC9629B326260098B586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F902BC9029B326260098B586 = {
+			isa = PBXGroup;
+			children = (
+				F902BC9B29B326260098B586 /* FaceCamera */,
+				F902BC9A29B326260098B586 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F902BC9A29B326260098B586 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F902BC9929B326260098B586 /* FaceCamera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F902BC9B29B326260098B586 /* FaceCamera */ = {
+			isa = PBXGroup;
+			children = (
+				F902BCCD29B327740098B586 /* THFaceDetectionDelegate.h */,
+				F902BCC729B326FC0098B586 /* THCameraView.h */,
+				F902BCC929B326FC0098B586 /* THCameraView.m */,
+				F902BCCF29B328310098B586 /* THPreviewView.swift */,
+				F902BCD129B328510098B586 /* THCameraController.swift */,
+				F902BCBD29B326F30098B586 /* THBaseCameraController.h */,
+				F902BCC329B326F30098B586 /* THBaseCameraController.m */,
+				F902BCBE29B326F30098B586 /* THCameraControllerDelegate.h */,
+				F902BCC129B326F30098B586 /* THViewController.h */,
+				F902BCBF29B326F30098B586 /* THViewController.m */,
+				F902BCB929B326E20098B586 /* NSFileManager+THAdditions.h */,
+				F902BCB829B326E20098B586 /* NSFileManager+THAdditions.m */,
+				F902BCB729B326E20098B586 /* THAssetsLibrary.h */,
+				F902BCBA29B326E20098B586 /* THAssetsLibrary.m */,
+				F902BC9C29B326260098B586 /* AppDelegate.h */,
+				F902BC9D29B326260098B586 /* AppDelegate.m */,
+				F902BC9F29B326260098B586 /* SceneDelegate.h */,
+				F902BCA029B326260098B586 /* SceneDelegate.m */,
+				F902BCA229B326260098B586 /* ViewController.h */,
+				F902BCA329B326260098B586 /* ViewController.m */,
+				F902BCA529B326260098B586 /* Main.storyboard */,
+				F902BCA829B326280098B586 /* Assets.xcassets */,
+				F902BCAA29B326280098B586 /* LaunchScreen.storyboard */,
+				F902BCAD29B326280098B586 /* Info.plist */,
+				F902BCAE29B326280098B586 /* main.m */,
+				F902BCCE29B328310098B586 /* FaceCamera-Bridging-Header.h */,
+			);
+			path = FaceCamera;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F902BC9829B326260098B586 /* FaceCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F902BCB229B326280098B586 /* Build configuration list for PBXNativeTarget "FaceCamera" */;
+			buildPhases = (
+				F902BC9529B326260098B586 /* Sources */,
+				F902BC9629B326260098B586 /* Frameworks */,
+				F902BC9729B326260098B586 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceCamera;
+			productName = FaceCamera;
+			productReference = F902BC9929B326260098B586 /* FaceCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F902BC9129B326260098B586 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F902BC9829B326260098B586 = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
+					};
+				};
+			};
+			buildConfigurationList = F902BC9429B326260098B586 /* Build configuration list for PBXProject "FaceCamera" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F902BC9029B326260098B586;
+			productRefGroup = F902BC9A29B326260098B586 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F902BC9829B326260098B586 /* FaceCamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F902BC9729B326260098B586 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F902BCAC29B326280098B586 /* LaunchScreen.storyboard in Resources */,
+				F902BCA929B326280098B586 /* Assets.xcassets in Resources */,
+				F902BCA729B326260098B586 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F902BC9529B326260098B586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F902BCBB29B326E20098B586 /* NSFileManager+THAdditions.m in Sources */,
+				F902BCC429B326F30098B586 /* THViewController.m in Sources */,
+				F902BCC629B326F30098B586 /* THBaseCameraController.m in Sources */,
+				F902BCA429B326260098B586 /* ViewController.m in Sources */,
+				F902BCCB29B326FC0098B586 /* THCameraView.m in Sources */,
+				F902BCD029B328310098B586 /* THPreviewView.swift in Sources */,
+				F902BCD229B328510098B586 /* THCameraController.swift in Sources */,
+				F902BC9E29B326260098B586 /* AppDelegate.m in Sources */,
+				F902BCAF29B326280098B586 /* main.m in Sources */,
+				F902BCBC29B326E20098B586 /* THAssetsLibrary.m in Sources */,
+				F902BCA129B326260098B586 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F902BCA529B326260098B586 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F902BCA629B326260098B586 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F902BCAA29B326280098B586 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F902BCAB29B326280098B586 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F902BCB029B326280098B586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F902BCB129B326280098B586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F902BCB329B326280098B586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9DW77WUQXJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FaceCamera/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.canoejun.FaceCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "FaceCamera/FaceCamera-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F902BCB429B326280098B586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9DW77WUQXJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FaceCamera/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.canoejun.FaceCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "FaceCamera/FaceCamera-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F902BC9429B326260098B586 /* Build configuration list for PBXProject "FaceCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F902BCB029B326280098B586 /* Debug */,
+				F902BCB129B326280098B586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F902BCB229B326280098B586 /* Build configuration list for PBXNativeTarget "FaceCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F902BCB329B326280098B586 /* Debug */,
+				F902BCB429B326280098B586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F902BC9129B326260098B586 /* Project object */;
+}

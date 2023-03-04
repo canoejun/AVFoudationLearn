@@ -1,6 +1,6 @@
 
 @protocol THFaceDetectionDelegate <NSObject>
 
-- (void)didDetectFaces:(NSArray *)faces;
+- (void)didDetectFaces:(NSArray<AVMetadataObject *> *)faces;
 
 @end
